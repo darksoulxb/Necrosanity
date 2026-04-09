@@ -1,12 +1,4 @@
-# import sensors
-#
-# def cpu_temps():
-#     sensors.init()
-#     temps = {}
-#
-#     for chip in sensors.iter_detected_chips():
-#         chip_name = f"{i ju}"
-# !/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Hardware temperature monitor with logging.
 Stores data in SQLite (structured) and CSV/TXT (user-readable).

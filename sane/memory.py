@@ -3,8 +3,8 @@ from .config import commands_file
 
 def load_data():
     if commands_file.exists():
-        with open(commands_file)as f:
-            return json.load(f) #If the file>
+        with open(commands_file) as f:
+            return json.load(f)
     return {}
 
 def save_data(commands):
