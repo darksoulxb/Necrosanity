@@ -19,6 +19,9 @@ build/
 *.swo
 *~
 
+# Empty files
+main1.py
+
 # Logs and databases (but keep structure)
 *.db
 *.db-journal
