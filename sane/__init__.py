@@ -1,13 +1,26 @@
-"""sane - Hardware monitoring and logging utility."""
+"""sane - System stability monitoring utility."""
 
-from .main import TemperatureLogger, SensorReading, collect_sensors, main
+from .main import (
+    SensorReading, StabilitySnapshot, HealthReport,
+    SystemMonitor, StabilityEngine, HumanFormatter,
+    SensorCollector, LMCollector, NvidiaCollector,
+    AMDGPUCollector, NVMeCollector, main
+)
 from .memory import load_data, save_data
 from .config import DATA_DIR, commands_file
 
 __all__ = [
-    "TemperatureLogger",
     "SensorReading",
-    "collect_sensors",
+    "StabilitySnapshot",
+    "HealthReport",
+    "SystemMonitor",
+    "StabilityEngine",
+    "HumanFormatter",
+    "SensorCollector",
+    "LMCollector",
+    "NvidiaCollector",
+    "AMDGPUCollector",
+    "NVMeCollector",
     "main",
     "load_data",
     "save_data",
