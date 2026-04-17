@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Empty files
+main1.py
+
+# Logs and databases (but keep structure)
+*.db
+*.db-journal
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - keep code, ignore runtime data
+sensor_logs.csv
+sensor_logs.txt
+sensor_logs.db
